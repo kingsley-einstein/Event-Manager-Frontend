@@ -1,0 +1,15 @@
+<clr-header class="header header-3">
+  <div class="branding">
+    <span class="title">Event Manager</span>
+  </div>
+  <div class="header-nav" [clr-nav-level]="1">
+    <a [routerLink]="['hero']" routerLinkActive="active" class="nav-link nav-text">Home</a>
+    <a [routerLink]="['login']" routerLinkActive="active" class="nav-link nav-text">Login</a>
+    <a [routerLink]="['register']" routerLinkActive="active" class="nav-link nav-text">Register</a>
+  </div>
+</clr-header>
+<div class="content-container">
+  <div class="content-area">
+    <router-outlet></router-outlet>
+  </div>
+</div>

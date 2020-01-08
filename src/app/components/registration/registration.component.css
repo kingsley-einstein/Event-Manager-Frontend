@@ -1,0 +1,17 @@
+[clrForm] {
+  width: 100%;
+  padding: 12px;
+}
+
+[clrInput] {
+  width: 100%;
+  padding: 8px;
+  margin: 8px;
+  display: block;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 4;
+}
+
