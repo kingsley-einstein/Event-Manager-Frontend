@@ -10,7 +10,7 @@ export class AuthService {
   constructor(private client: HttpClient) {}
 
   getLoggedUser() {
-    return this.client.get<APIResponse<AuthModel | string>>(`${api}/auth-service/api/v1/auth`);
+    return this.client.get<APIResponse<AuthModel>>(`${api}/auth-service/api/v1/auth`);
   }
 
   createUser(request: APIRequest<{ email: string; password: string; }>) {
