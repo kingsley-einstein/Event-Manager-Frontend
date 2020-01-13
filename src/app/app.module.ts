@@ -5,7 +5,7 @@ import { HttpClientModule } from "@angular/common/http";
 
 import { ClarityModule } from "@clr/angular";
 
-import { RoutingModule } from "./modules";
+import { RoutingModule, NgrxModule } from "./modules";
 
 import {
   HeroComponent,
@@ -29,7 +29,8 @@ import { AppComponent } from './app.component';
     BrowserAnimationsModule,
     ClarityModule,
     RoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    NgrxModule
   ],
   providers: [],
   bootstrap: [AppComponent]
